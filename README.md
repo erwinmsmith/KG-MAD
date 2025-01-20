@@ -79,19 +79,19 @@ Evaluation results will be saved as JSON files (kgc_results.json and rte_results
 
 ### Output Files
 
-output/output_t.xlsx: Contains processed knowledge graph triples, questions, and answers.
-output/rte_output_t.json: Contains the results of Relation Extraction (RTE).
-output/kgc_output_t.json: Contains the results of Knowledge Graph Construction (KGC).
-kgc_results.json and rte_results.json: Evaluation result files.
+- output/output_t.xlsx: Contains processed knowledge graph triples, questions, and answers.
+- output/rte_output_t.json: Contains the results of Relation Extraction (RTE).
+- output/kgc_output_t.json: Contains the results of Knowledge Graph Construction (KGC).
+- kgc_results.json and rte_results.json: Evaluation result files.
 
 ---
 
 ## Notes
 
-Fine-tuning and evaluation of the distilled models follow the usage guidelines from llama-factory.
-Ensure the format of the input data is correct, especially the content of the context column.
-If you encounter errors during execution, check the log messages to identify the issue.
-The evaluation script requires access to the OpenAI API. Ensure your network connection is stable and the API configuration is correct.
+- Fine-tuning and evaluation of the distilled models follow the usage guidelines from llama-factory.
+- Ensure the format of the input data is correct, especially the content of the context column.
+- If you encounter errors during execution, check the log messages to identify the issue.
+- The evaluation script requires access to the OpenAI API. Ensure your network connection is stable and the API configuration is correct.
 
 ---
 
