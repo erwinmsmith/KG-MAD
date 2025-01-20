@@ -21,9 +21,10 @@ In the industrial domain, the efficient execution of complex decision-making tas
 
 - **Python**: 3.8+
 - **Dependencies**:
-  - OpenAI API
+  - OpenAI
   - GraphRAG
-
+  - llama-factory
+  - Swarm
 ---
 
 ## Installation
