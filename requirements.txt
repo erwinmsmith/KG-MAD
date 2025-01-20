@@ -1,0 +1,7 @@
+openai>=1.0.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+tqdm>=4.65.0
+json>=2.0.9
+subprocess>=3.5.0
+sys>=3.8.0
