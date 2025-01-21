@@ -21,7 +21,7 @@ class Agents:
             "You are an industrial information extraction expert. "
             "Your task is to extract all important entities related to industry, production, and management from the given text. "
             "Please return these entities as a list, each on a new line. "
-            "Please answer in English. "
+            #"Please answer in English. "
             "Let's think step by step."
         ),
     )
@@ -34,7 +34,7 @@ class Agents:
             "Your task is to extract relationships between entities related to industry, production, and management based on the provided entity list and original text. "
             "Please return these relationships in the format: Entity1 Relation Entity2. "
             "For example: 'CompanyA manufactures ProductB'. "
-            "Please answer in English. "
+            #"Please answer in English. "
             "Let's think step by step."
         ),
     )
@@ -60,8 +60,8 @@ class Agents:
             "You are a knowledge graph validation expert. "
             "Your task is to validate the generated knowledge graph triples to ensure they are consistent with the user's original input and logically correct. "
             "If the validation passes, please return 'This is a loyal fact.' "
-            "If the validation fails, please specify the specific issues and request the Knowledge Graph Master to regenerate them accordingly. "
-            "Please answer in English. "
+            "If the validation fails, please specify the specific issues and request the Knowledge Relation Distiller to regenerate them accordingly. "
+            #"Please answer in English. "
             "Let's think step by step."
         ),
     )
@@ -74,7 +74,7 @@ class Agents:
             "Your task is to generate a question and an answer based on the provided knowledge graph triple and context. "
             "The question should be in the form: 'According to the context, what is the relationship between Entity1 and Entity2?' "
             "The answer should include the relationship between Entity1 and Entity2 and reference the context. "
-            "Please answer in English. "
+            #"Please answer in English. "
             "Let's think step by step."
         ),
     )
