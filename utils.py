@@ -75,7 +75,7 @@ def run_graphrag_query(query: str, openai_client) -> Tuple[Optional[str], Option
         command = [
             sys.executable, "-m", "graphrag.query",
             "--root", "./test",
-            "--method", "local",
+            "--method", "Global",
             translated_query,
             "--data", "test/output/20250115-130155/artifacts"
         ]
