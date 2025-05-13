@@ -1,6 +1,6 @@
-# InKgent
+# KG-MAD:Knowledge Graph-guided Multi-agent Distillation
 
-This repository contains the source code for **'InKgent: Empowering Industrial Decisions with Multi-Agent Systems Distillation and Local Knowledge Graphs'**, a cutting-edge framework designed to enhance industrial decision-making through multi-agent systems distillation and local knowledge graphs.
+This repository contains the source code for **'KG-MAD:Knowledge Graph-guided Multi-agent Distillation'**, a cutting-edge framework designed to enhance industrial decision-making through multi-agent systems distillation and local knowledge graphs.
 
 ![Framework](Framework.png)
 
